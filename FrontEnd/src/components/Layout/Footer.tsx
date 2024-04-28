@@ -20,7 +20,7 @@ const Footer: React.FC = () => {
                     <i className="flaticon-phone-call"></i>
                     <span>Mon to Fri : 10:00AM - 06:00PM</span>
 
-                    <a href="tel:1235421457852">+919846173905</a>
+                    <a href="tel:1235421457852">+917004105208</a>
                   </li>
                   <li>
                     <i className="flaticon-email"></i>
@@ -115,72 +115,7 @@ const Footer: React.FC = () => {
             </div>
 
             <div className="col-lg-4 col-md-6 col-sm-6">
-              <div className="single-footer-widget pl-5">
-                <h3>Instagram</h3>
-
-                <ul className="footer-instagram-post">
-                  <li>
-                    <a href="https://www.instagram.com/" target="_blank">
-                      <Image
-                        src="/images/instagram-image/insta-img1.jpg"
-                        alt="image"
-                        width={150}
-                        height={122}
-                      />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://www.instagram.com/" target="_blank">
-                      <Image
-                        src="/images/instagram-image/insta-img2.jpg"
-                        alt="image"
-                        width={150}
-                        height={122}
-                      />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://www.instagram.com/" target="_blank">
-                      <Image
-                        src="/images/instagram-image/insta-img3.jpg"
-                        alt="image"
-                        width={150}
-                        height={122}
-                      />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://www.instagram.com/" target="_blank">
-                      <Image
-                        src="/images/instagram-image/insta-img4.jpg"
-                        alt="image"
-                        width={150}
-                        height={122}
-                      />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://www.instagram.com/" target="_blank">
-                      <Image
-                        src="/images/instagram-image/insta-img5.jpg"
-                        alt="image"
-                        width={150}
-                        height={122}
-                      />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://www.instagram.com/" target="_blank">
-                      <Image
-                        src="/images/instagram-image/insta-img6.jpg"
-                        alt="image"
-                        width={150}
-                        height={122}
-                      />
-                    </a>
-                  </li>
-                </ul>
-              </div>
+              <div className="single-footer-widget pl-5">   </div>
             </div>
           </div>
 

@@ -4,7 +4,7 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 
-const FooterTwo: React.FC = () => {
+const MandiFooter: React.FC = () => {
   const currentYear = new Date().getFullYear();
   return (
     <>
@@ -22,9 +22,7 @@ const FooterTwo: React.FC = () => {
                   />
                 </Link>
                 <p>
-                  Lorem ipsum dolor sit amet, is consectetur adipiscing elit,
-                  sed do ipsum lorem dollar eiusmo. Lorem ipsum dolor sit amet,
-                  is sit consectetur adipiscing elit.
+                  Chatti Se Mandi Tak is dedicated to providing convenient solutions for farmers in Bihar, enabling easy access to mandi prices and booking home pickups for their produce.
                 </p>
 
                 <ul className="social-links">
@@ -54,32 +52,32 @@ const FooterTwo: React.FC = () => {
 
             <div className="col-lg-3 col-md-6 col-sm-6">
               <div className="single-footer-card ps-5">
-                <h3>Cryptocurrency</h3>
+                <h3>Maize</h3>
 
                 <ul className="footer-quick-links">
                   <li>
                     <Link href="#">
-                      <i className="fa-solid fa-angles-right"></i> Buy Bitcoin
+                      <i className="fa-solid fa-angles-right"></i>Sell G1 Quality
                     </Link>
                   </li>
                   <li>
                     <Link href="#">
-                      <i className="fa-solid fa-angles-right"></i> Buy BNB
+                      <i className="fa-solid fa-angles-right"></i> Sell G2 Quality
                     </Link>
                   </li>
                   <li>
                     <Link href="#">
-                      <i className="fa-solid fa-angles-right"></i> Buy Ethereum
+                      <i className="fa-solid fa-angles-right"></i> Sell G3 Quality
                     </Link>
                   </li>
                   <li>
                     <Link href="#">
-                      <i className="fa-solid fa-angles-right"></i> Buy Ripple
+                      <i className="fa-solid fa-angles-right"></i> Sell G4 Quality
                     </Link>
                   </li>
                   <li>
                     <Link href="#">
-                      <i className="fa-solid fa-angles-right"></i> Buy Litecoin
+                      <i className="fa-solid fa-angles-right"></i> Sell G5 Quality
                     </Link>
                   </li>
                 </ul>
@@ -126,13 +124,12 @@ const FooterTwo: React.FC = () => {
 
                 <ul className="contact-links">
                   <li>
-                    <span>Address:</span> 2750 Quadra Street Victoria Road, New
-                    York, Canada
+                    <span>Address:</span> Araria, Bihar
                   </li>
                   <li>
                     <span>Website:</span>{" "}
-                    <a href="https://Softechinfra.com/" target="_blank">
-                      Softechinfra.com
+                    <a href="https://chattisemanditak.com/" target="_blank">
+                      Chatti Se Mandi Tak
                     </a>
                   </li>
                   <li>
@@ -159,7 +156,7 @@ const FooterTwo: React.FC = () => {
         </div>
         <div className="footer-wrap-shape">
           <Image
-            src="/images/cryptocurrency-home/footer/shape-1.png"
+            src="/images/cryptocurrency-home/footer/icon1.png"
             alt="image"
             width={63}
             height={58}
@@ -167,7 +164,7 @@ const FooterTwo: React.FC = () => {
         </div>
         <div className="footer-wrap-shape-2">
           <Image
-            src="/images/cryptocurrency-home/footer/shape-2.png"
+            src="/images/cryptocurrency-home/footer/icon2.png"
             alt="image"
             width={33}
             height={53}
@@ -180,9 +177,9 @@ const FooterTwo: React.FC = () => {
           <div className="row align-items-center">
             <div className="col-lg-6 col-sm-6 col-md-6">
               <p>
-                Copyright &copy;{currentYear} Softechinfra. All rights reserved{" "}
-                <a href="https://Softechinfra.com/" target="_blank">
-                  Softechinfra
+                Copyright &copy;{currentYear} Chatti Se Mandi Tak. All rights reserved{" "}
+                <a href="https://chattisemanditak.com/" target="_blank">
+                  Chatti Se Mandi Tak
                 </a>
               </p>
             </div>
@@ -204,4 +201,4 @@ const FooterTwo: React.FC = () => {
   );
 };
 
-export default FooterTwo;
+export default MandiFooter;

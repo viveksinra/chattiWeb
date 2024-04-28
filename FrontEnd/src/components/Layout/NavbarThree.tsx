@@ -90,7 +90,7 @@ const NavbarThree: React.FC = () => {
               </div>
 
               <div className="others-options">
-                <div className="cart-items">
+                {/* <div className="cart-items">
                   <Link href="/cart">
                     <i className="fas fa-shopping-cart"></i>
                     <span>{5}</span>
@@ -133,7 +133,7 @@ const NavbarThree: React.FC = () => {
                       </form>
                     </div>
                   </div>
-                </div>
+                </div> */}
 
                 <div className="burger-menu" onClick={toggleModal}>
                   <span></span>

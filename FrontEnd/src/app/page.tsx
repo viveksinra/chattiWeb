@@ -25,27 +25,27 @@ export default function Page() {
 
       <MainBanner />
 
-      <Stats />
+      {/* <Stats />
 
       <AboutOurCompany />
 
       <EarningPlatform />
 
-      <GetStrated />
+      <GetStrated /> */}
 
-      <KeyFeatures />
+      {/* <KeyFeatures /> */}
 
-      <StartMiningCrypto />
+      {/* <StartMiningCrypto /> */}
 
-      <StartTradingAndEarning />
+      {/* <StartTradingAndEarning />
 
-      <WhyChooseUs />
+      <WhyChooseUs /> */}
 
       <Feedbacks />
 
-      <MobileApp />
+      {/* <MobileApp /> */}
 
-      <LatestNews />
+      {/* <LatestNews /> */}
 
       <NewsletterForm />
 

@@ -44,8 +44,7 @@ const ContactUs: React.FC = () => {
             <span className="sub-title">Contact Us</span>
             <h2>Drop us Message for any Query</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              We are getting very number of query, if we don't respond please Call us
             </p>
           </div>
 

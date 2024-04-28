@@ -8,25 +8,25 @@ const Tradevalue: React.FC = () => {
   // Define an array containing data for each slide
   const slidesData = [
     {
-      imageSrc: "/images/cryptocurrency-home/value-trade/REN.png",
+      imageSrc: "/images/cryptocurrency-home/value-trade/icon1.png",
       name: "Maize (G1 Quality)",
       price: "₹2100",
       change: "+0.017%",
     },
     {
-      imageSrc: "/images/cryptocurrency-home/value-trade/USDT.png",
+      imageSrc: "/images/cryptocurrency-home/value-trade/icon2.png",
       name: "Maize (G2 Quality)",
       price: "₹1950",
       change: "+0.017%",
     },
     {
-      imageSrc: "/images/cryptocurrency-home/value-trade/layer.png",
+      imageSrc: "/images/cryptocurrency-home/value-trade/icon1.png",
       name: "Maize (G3 Quality)",
       price: "₹1800",
       change: "-0.017%",
     },
     {
-      imageSrc: "/images/cryptocurrency-home/value-trade/USDT.png",
+      imageSrc: "/images/cryptocurrency-home/value-trade/icon2.png",
       name: "Maize (G4 Quality)",
       price: "₹1650",
       change: "+0.017%",

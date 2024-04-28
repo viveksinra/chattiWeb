@@ -107,7 +107,7 @@ export default function Page() {
                 )}
 
                 {accountDeleted && (
-                  <p>Account deleted successfully!</p>
+                  <p>Account deleted Initiated successfully!</p>
                 )}
               </div>
             </div>

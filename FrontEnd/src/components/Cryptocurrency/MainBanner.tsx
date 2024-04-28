@@ -11,10 +11,6 @@ const MainBanner: React.FC = () => {
 
   return (
     <>
-      <FsLightbox
-        toggler={toggler}
-        sources={["https://www.youtube.com/watch?v=bk7McNUjWgw"]}
-      />
 
       <div className="cryptocurrency-banner-section">
         <div className="container-fluid">
@@ -36,17 +32,15 @@ const MainBanner: React.FC = () => {
 
                 <ul className="banner-btn">
                   <li>
-                    <Link href="/contact" className="default-btn">
-                      Get Started <span></span>
-                    </Link>
+                  <a href="#" className="default-btn" target="_blank">
+                     Download Kisan App <span></span>
+                     </a>
+               
                   </li>
                   <li>
-                    <div
-                      onClick={() => setToggler(!toggler)}
-                      className="video-btn"
-                    >
-                      <i className="flaticon-play-button"></i>
-                    </div>
+                  <a href="#" className="default-btn" target="_blank">
+                     Download Business App <span></span>
+                     </a>
                   </li>
                 </ul>
               </div>
