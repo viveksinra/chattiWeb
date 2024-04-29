@@ -32,7 +32,7 @@ const MainBanner: React.FC = () => {
 
                 <ul className="banner-btn">
                   <li>
-                  <a href="#" className="default-btn" target="_blank">
+                  <a href="/apk/chatti.apk" className="default-btn" target="_blank">
                      Download Kisan App <span></span>
                      </a>
                
