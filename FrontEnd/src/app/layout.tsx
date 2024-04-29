@@ -21,9 +21,9 @@ const overpass = Overpass({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title:
-    "chattisemanditak - MultiDomain Technology Services & IT Startup",
+    "chattisemanditak - A Platform for kisan to reach mandi",
   description:
-    "chattisemanditak - MultiDomain Technology Services & IT Startup - Website build by Vivek Singh",
+    "chattisemanditak -  A Platform for kisan to reach mandi - Website build by Vivek Singh",
 };
 
 export default function RootLayout({
