@@ -30,19 +30,14 @@ const MainBanner: React.FC = () => {
                   to help redefine the possibilities and potential.
                 </p>
 
-                <ul className="banner-btn">
-                  <li>
-                  <a href="/apk/chatti.apk" className="default-btn" target="_blank">
-                     Download Kisan App <span></span>
-                     </a>
-               
-                  </li>
-                  <li>
-                  <a href="#" className="default-btn" target="_blank">
-                     Download Business App <span></span>
-                     </a>
-                  </li>
-                </ul>
+                <div className="d-flex flex-column flex-md-row"> {/* Utilizing Bootstrap flex utilities */}
+                  <a href="/apk/chatti.apk" className="default-btn me-md-3 mb-3 mb-md-0" target="_blank">
+                    Download Kisan App <span></span>
+                  </a>
+                  <a href="/apk/business.apk" className="default-btn" target="_blank">
+                    Download Business App <span></span>
+                  </a>
+                </div>
               </div>
             </div>
 
